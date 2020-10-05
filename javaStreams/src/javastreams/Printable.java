@@ -5,10 +5,13 @@
  */
 package javastreams;
 
+import java.util.List;
+
 /**
  *
  * @author Marcel.Lindinger
  */
-enum damageType {
-    SLASHING, MISSILE, BLUNT, NONE, PIERCING
+public interface Printable {
+
+    void print(Weapons weapons);
 }

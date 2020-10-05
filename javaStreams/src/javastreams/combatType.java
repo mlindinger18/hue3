@@ -10,5 +10,5 @@ package javastreams;
  * @author Marcel.Lindinger
  */
 enum combatType {
-    MELEE, RANGED, NONE;
+    MELEE, RANGED, NONE
 }

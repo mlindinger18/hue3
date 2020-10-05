@@ -19,13 +19,14 @@ public class Weapons {
     private final int minStrength;
     private int value;
 
-    public Weapons(String name, combatType combatType, damageType damageType, int damage, int speed, int minStrength) {
+    public Weapons(String name, combatType combatType, damageType damageType, int damage, int speed, int minStrength, int value) {
         this.name = name;
         this.combatType = combatType;
         this.damageType = damageType;
         this.damage = damage;
         this.speed = speed;
         this.minStrength = minStrength;
+        this.value = value;
     }
 
     public String getName() {
